@@ -1,0 +1,106 @@
+
+/* ---------------------- haeder --------------- */
+
+#haed {
+
+    position: absolute;
+    font-size: 2.5em;
+    color: #fff;
+    font-family: "McLaren", cursive;
+    z-index: 999999;
+    right: 0;
+    height: 60%;
+    text-align: left;
+  }
+  #head:hover{
+    color: white;
+  }
+  header {
+  
+    display: grid;
+    background-color: #16384c;
+    margin: 0px -16px;
+    padding: 1px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    max-height: 50px;
+    min-height: 50px;
+  
+  }
+  
+  header #head {
+    color: #fff;
+    
+    font-family: "McLaren", cursive;
+    font-weight: 25;
+    font-size: 2em;
+    text-align: right;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 0.5em;
+    margin-right: 1em;
+    padding-right: 0.5em;
+    padding-bottom: 00.5rem;
+  }
+
+
+
+
+  .button_lang1{
+    /* padding-top: 3em;
+    margin-top: 3em; */
+    display: inline-block;
+    padding: 0.05em 1.2em;
+    border: 0.1em solid black;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:rgb(222, 247, 6);
+    background-color: white;
+    text-align: center;
+    transition: all 0.2s;
+  }
+  .button_lang1:hover{
+    background-color: rgb(32, 212, 16);
+    color:white;
+    border-radius: 0em;
+    border-color: white;
+  }
+  
+  /* .button_lang:hover {
+      color: #000000;
+      background-color: #FFFFFF; 
+    } */
+    #about {
+
+      position: fixed;
+      
+      left: 0;
+      margin-right: 0;
+      margin-left: 1em;
+      font-family: "McLaren", cursive;
+      z-index: 999999;
+      
+      
+    }
+  
+    header #about {
+      color: rgb(131, 57, 57);
+      font-family: "McLaren", cursive;
+      /* font-weight: 25;
+      font-size: 2em; */
+      place-items: right;
+      text-align: left;
+      margin-top: 5px;
+      border-radius: 20px;
+      margin-right: 0;
+      padding-top: 0px;
+      margin-left: 1em;
+      padding-left: 0.5em;
+      padding-bottom: 00.5rem;
+    }
+  header #about:hover{
+    color: #000;
+  }
