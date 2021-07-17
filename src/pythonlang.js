@@ -7,7 +7,7 @@ const pythonlang = [
       name: "and",
       
       meaning:
-        "â€œA logical operator",
+        "logical operator",
       Button_link :<a href="https://www.geeksforgeeks.org/abstract-keyword-in-java/" class="button_lang">click</a>
     },
     {
