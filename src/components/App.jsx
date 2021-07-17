@@ -55,6 +55,10 @@ function App() {
       {active === "clang" && <dl className="dictionary">{clang.map(createEntry)}</dl>}
       {active === "javalang" && <h4><span>java lang has 48 keywords.</span></h4> }
       {active === "javalang" && <dl className="dictionary">{javalang.map(createEntry)}</dl>}
+      {active === "pythonlang" && <h4><span>Python lang has 33 keywords.</span></h4> }
+      {active === "pythonlang" && <dl className="dictionary">{pythonlang.map(createEntry)}</dl>}
+      {active === "c++lang" && <h4><span>C++ and c lang has 32 keywords in common.</span></h4> }
+      {active === "c++lang" && <dl className="dictionary">{cpplang.map(createEntry)}</dl>}
  
       {/* {active === "c++lang" && <dl className="dictionary">{cpplang.map(createEntry)}</dl>}
       {active === "javalang" && <dl className="dictionary">{javalang.map(createEntry)}</dl>}

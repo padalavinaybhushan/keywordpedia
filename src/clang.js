@@ -151,7 +151,7 @@ const clang = [
       name: "int",
       
       meaning:
-        "",
+        "Int, short for Integer is a fundamental variable type built into the compiler and used to define numeric variables holding whole numbers.",
       Button_link :<a href="https://www.geeksforgeeks.org/integer-promotions-in-c/" class="button_lang">click</a>
     },   
     {
